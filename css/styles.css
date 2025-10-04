@@ -71,14 +71,11 @@ ul {
 }
 
 .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding-bottom: 16px;
     padding-top: 16px;
-}
-
-.nav-style {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
 
 .logo {
@@ -97,17 +94,20 @@ ul {
 }
 
 .burger {
-    display: flex;
     padding: 0;
-    border: none;
-    background-color: transparent;
+    display: flex;
+    align-items: center;
     width: 24px;
     height: 24px;
+    line-height: 0;
+    border: none;
+    background-color: transparent;
+    fill: #2e2f42;
 }
 
-.burger-icon {
+/* .burger-icon {
     fill: #2f2f37;
-}
+} */
 
 /* * / HEADER */
 
