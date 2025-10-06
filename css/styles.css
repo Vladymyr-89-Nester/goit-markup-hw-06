@@ -614,6 +614,33 @@ ul {
 
     /* * / MODAL */
 
+}
+
+@media screen and (max-width: 767px) {
+    .burger {
+        padding: 0;
+        line-height: 0;
+        border: none;
+        background-color: transparent;
+        fill: #2e2f42;
+    }
+
+    .head {
+        padding-bottom: 16px;
+        padding-top: 16px;
+    }
+
+    .title {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url(../images/hero/mobail/bg.jpg);
+    }
+
+    @media screen and (min-resolution: 192dpi) {
+        .title {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/mobail/bg@2x.jpg);
+        }
+    }
+
     /** MENU */
     .menu {
         top: 0;
@@ -621,7 +648,7 @@ ul {
         transform: translateX(-50%);
         width: 320px;
         border-radius: 0;
-        min-height: 640px;
+        height: 100%;
         background-color: #FFFFFF;
         padding: 72px 24px 40px 16px;
         box-shadow: none;
@@ -681,36 +708,6 @@ ul {
     }
 
     /** / MENU */
-}
-
-@media screen and (max-width: 767px) {
-    .burger {
-        padding: 0;
-        display: flex;
-        align-items: center;
-        width: 24px;
-        height: 24px;
-        line-height: 0;
-        border: none;
-        background-color: transparent;
-        fill: #2e2f42;
-    }
-
-    .head {
-        padding-bottom: 16px;
-        padding-top: 16px;
-    }
-
-    .title {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-            url(../images/hero/mobail/bg.jpg);
-    }
-
-    @media screen and (min-resolution: 192dpi) {
-        .title {
-            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/mobail/bg@2x.jpg);
-        }
-    }
 }
 
 @media screen and (min-width: 768px) {
